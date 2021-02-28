@@ -1,0 +1,35 @@
+- Instalando o django
+  pip install django
+
+- Criar um projeto
+  django-admin help
+  django-admin startproject alurareceita .
+
+- Arquivo de configurações
+  settings.py
+  procurar no google django timezone
+
+- Subir um servidor dev
+  python manage.py help
+  python manage.py runserver
+
+- app aplicação com escopo definido
+
+- Iniciar um app
+  python manage.py startapp receitas
+
+- Registrar um app no settings.py
+- Registrar as rotas
+
+- Registrar arquivos estáticos
+  python manage.py collectstatic
+
+- Migrations
+  Cria uma migrations com base nos modelos
+  python manage.py makemigrations
+
+  Roda as migrations 
+  python manage.py migrate
+
+- Cria um usuário admin
+  python manage.py createsuperuser
