@@ -1,3 +1,5 @@
+- update no pip
+  pip install --upgrade pip
 - Instalando o django
   pip install django
 
